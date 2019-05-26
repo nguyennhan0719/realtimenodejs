@@ -35,7 +35,7 @@
 
 
             socket.on('progress', function(msg) {
-                document.getElementsByClassName('progressBar')[0].value = Number(data);
+                document.getElementsByClassName('progressBar')[0].value = Number(msg);
             });
         });
     </script>
